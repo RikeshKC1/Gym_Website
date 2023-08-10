@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym center</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" th:href="@{https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css}">
+
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo"><span>Pradise</span>Haitw</a>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<nav class="navbar">
+    <ul>
+        <li><a class="active" href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#service">service</a></li>
+        <li><a href="#trainer">trainer</a></li>
+        <li><a href="#plan">plan</a></li>
+        <li><a href="/logout">Log Out</a></li>
+
+    </ul>
+</nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<h1>Success usually comes to those who are too busy to be looking for it but <br> you have to try until dead</h1>
+
+<a href="\signup"><button class="btn">get started</button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+
+<div class="row">
+
+    <div class="image">
+        <img th:src="@{/images/About.jpeg}" alt="Your Image">
+    </div>
+
+    <div class="content">
+        <h3>a word about us</h3>
+        <p>
+            Welcome to our gym! We are a premier fitness facility dedicated to helping you achieve your health and wellness goals. Our gym is designed to cater to individuals of all fitness levels, from beginners to seasoned athletes. Here's some information about us
+            Our mission is to provide a supportive and motivating environment where members can pursue their fitness journey, improve their physical and mental well-being, and lead a healthier lifestyle. We aim to empower our members with the knowledge and tools they need to reach their fitness goals and maintain a long-lasting commitment to their overall health. Our gym boasts state-of-the-art facilities that are equipped with a wide range of modern exercise equipment to target various muscle groups and fitness objectives. We have dedicated areas for cardio workouts, strength training, functional fitness, group classes, and more.
+            
+           
+            
+           </p>
+        <p> 
+       .</p>
+        
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+<h1 class="heading">our services</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img th:src="@{/images/Treadmills.jpeg}" alt="Your Image">
+        <div class="info">
+            <h3>treadmill</h3>
+            <p>
+                "Welcome to our website, where fitness meets convenience! Discover the ultimate treadmill experience designed to elevate your workouts and achieve your fitness goals from the comfort of your home. Explore our cutting-edge features, personalized training programs, and enjoy a seamless fitness journey like never before!"</p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/Yoga.jpg}" alt="Your Image">
+        <div class="info">
+            <h3>yoga</h3>
+            <p>Namaste and welcome to our serene virtual sanctuary! Embark on a transformative journey of self-discovery and inner peace through yoga. Embrace the harmony of mind, body, and spirit as our expert instructors guide you through rejuvenating practices, empowering you to find balance, flexibility, and blissful serenity within. Let your yoga adventure begin!</p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/trainer.jpg}" alt="Your Image">
+        <div class="info">
+            <h3>trainer</h3>
+            <p>Hello! we will provide you all the requirement you needed and provide you best of the best body tranformation</p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/equipment.jpg}" alt="Your Image">
+        <div class="info">
+            <h3>equipments</h3>
+            <p>Our Gym center have all the requirement you needed and all the modern equipement </p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/boxing.jpg}" alt="Your Image">
+        <div class="info">
+            <h3>boxing</h3>
+            <p>Boxing is also a part of gym which gives you more </p>
+            
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/Weightlifting.jpeg}" alt="Your Image">
+        <div class="info">
+            <h3>weight lifting</h3>
+            <p>Weight Lifting help us to gain muscles and make our body fit</p>
+            
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- trainer section starts  -->
+
+<section class="trainer" id="trainer">
+
+<h1 class="heading">our trainers</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img th:src="@{/images/Arnold.jpeg}" alt="Your Image">
+        <div class="info">
+            <h3>Peter Cetche</h3>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/leee.jpeg}" alt="Your Image">
+        <div class="info">
+            <h3>Lorem Cena</h3>
+        </div>
+
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.instagram/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin/" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/Rikesh.png}" alt="Your Image">
+        <div class="info">
+            <h3>Joen Tailor</h3>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.instagram/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin/" class="fab fa-linkedin"></a>
+
+        </div>
+    </div>
+
+    <div class="box">
+        <img th:src="@{/images/coach4.png}" alt="Your Image">
+        <div class="info">
+            <h3>Ricky Pointing</h3>
+        </div>
+        <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.instagram/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin/" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- trainer section ends -->
+
+<!-- plan section starts  -->
+
+<section class="plan" id="plan">
+
+<h1 class="heading">membership plan</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <h3 class="title">basic</h3>
+        <h3 class="price">$40<span>/mo</span></h3>
+        <h3 class="month">3 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+
+    </div>
+
+    <div class="box">
+        <h3 class="title">standard</h3>
+        <h3 class="price">$80<span>/mo</span></h3>
+        <h3 class="month">6 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+
+    </div>
+
+    <div class="box">
+        <h3 class="title">premium</h3>
+        <h3 class="price">$90<span>/mo</span></h3>
+        <h3 class="month">12 months</h3>
+        <ul>
+            <li><i class="fas fa-check"></i>weight lifting</li>
+            <li><i class="fas fa-check"></i>cardio</li>
+            <li><i class="fas fa-check"></i>yoga</li>
+            <li><i class="fas fa-check"></i>training</li>
+            <li><i class="fas fa-check"></i>protein powder</li>
+        </ul>
+
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- plan section ends -->
+
+<!-- register section starts  -->
+
+
+
+<!-- register section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+    created by <a href="#">Rikesh K.C</a> | all rights reserved.| Contact:9818945564
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script th:src="@{\https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js}"></script>
+
+
+<!-- custom js file link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script th:src="@{/javascript/main.js}"></script>
+
+
+
+
+</body>
+</html>
